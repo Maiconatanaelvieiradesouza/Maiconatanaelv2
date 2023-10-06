@@ -1,0 +1,27 @@
+h1 {
+    color: rgb(4, 4, 15);
+    font-family: Arial, sans-serif;
+  }
+  
+  form {
+    border-radius: 10px;
+    box-shadow: 5px 5px 10px gray;
+  }
+  
+  label {
+    color: black;
+    font-family: Verdana, sans-serif;
+  }
+  
+  input, select {
+    border: 1px solid rgb(19, 16, 2);
+    border-radius: 5px;
+  }
+  
+  button {
+    background-color: darkblue;
+    color: white;
+    border: none;
+    border-radius: 5px;
+    padding: 10px;
+  }

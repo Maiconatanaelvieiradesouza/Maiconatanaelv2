@@ -1,0 +1,81 @@
+<!DOCTYPE html>
+    <html lang="pt-br">
+    <head>
+        <meta charset="UTF-8">
+        <meta http-equiv="X-UA-Compatible" content="IE=edge">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        <link rel="stylesheet" href="av2.css">
+        <title>avaliacao 2</title>
+    </head>
+    <body>
+  <style>
+    body {
+      background-color: beige;
+    }
+
+    h1 {
+      text-align: center;
+    }
+
+    form {
+      width: 400px;
+      margin: 0 auto;
+      border: 1px solid black;
+      padding: 20px;
+    }
+
+    label {
+      display: block;
+      margin-bottom: 10px;
+    }
+
+    input, select {
+      width: 100%;
+      box-sizing: border-box;
+    }
+
+    input[type="checkbox"] {
+      width: auto;
+    }
+
+    button {
+      margin-top: 20px;
+      float: right;
+    }
+  </style>
+</head>
+<body>
+  <h1>Cadastro de Usuário</h1>
+  <form>
+    <label for="nome">Nome</label>
+    <input type="text" id="nome" name="nome" required>
+
+    <label for="email">Email</label>
+    <input type="email" id="email" name="email" required>
+
+    <label for="password">Password</label>
+    <input type="password" id="password" name="password" required>
+
+    <label for="rua">Rua</label>
+    <input type="text" id="rua" name="rua">
+
+    <label for="bairro">Bairro</label>
+    <input type="text" id="bairro" name="bairro">
+
+    <label for="city">City</label>
+    <input type="text" id="city" name="city">
+
+    <label for="state">state</label>
+    <input type="text" id="state" name="state">
+
+    <label for="zip">Zip</label>
+    <input type="text" id="zip" name="zip">
+
+    <input type="checkbox" id="checkmeout" name="checkmeout">
+    <label for="checkmeout">Check me out</label>
+    <button type="reset">Clear</button>
+    <button type="submit">Submit</button>
+    
+  </form>
+</body>
+</html>
